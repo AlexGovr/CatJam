@@ -25,7 +25,9 @@
   "ResourceOrderSettings":[
     {"name":"libOHitable","order":1,"path":"objects/libOHitable/libOHitable.yy",},
     {"name":"libORoomSelectMenu","order":1,"path":"objects/libORoomSelectMenu/libORoomSelectMenu.yy",},
+    {"name":"oHideSpot","order":1,"path":"objects/oHideSpot/oHideSpot.yy",},
     {"name":"oParticles","order":1,"path":"objects/oParticles/oParticles.yy",},
+    {"name":"oShapePoint","order":2,"path":"objects/oShapePoint/oShapePoint.yy",},
     {"name":"oSimpleBullet","order":2,"path":"objects/oSimpleBullet/oSimpleBullet.yy",},
     {"name":"oSound","order":3,"path":"objects/oSound/oSound.yy",},
     {"name":"oTarget","order":3,"path":"objects/oTarget/oTarget.yy",},
@@ -41,6 +43,7 @@
     {"name":"utils","order":6,"path":"scripts/utils/utils.yy",},
     {"name":"libSButton","order":1,"path":"sprites/libSButton/libSButton.yy",},
     {"name":"libSTopDownPlayer","order":2,"path":"sprites/libSTopDownPlayer/libSTopDownPlayer.yy",},
+    {"name":"sShapePoint","order":1,"path":"sprites/sShapePoint/sShapePoint.yy",},
     {"name":"sTopDownPlayer_1","order":3,"path":"sprites/sTopDownPlayer_1/sTopDownPlayer_1.yy",},
   ],
 }

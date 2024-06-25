@@ -1,22 +1,28 @@
 
-shape = [
-	[300, 100],
-	[200, 10],
-	[100, 100],
-	[100, 300],
-	[300, 300],
-	[300, 100],
-]
+//shape = [
+//	[300, 100],
+//	[200, 10],
+//	[100, 100],
+//	[100, 300],
+//	[300, 300],
+//	[300, 100],
+//]
 
 points = []
 is_drawing = false
+current_shape = noone
+current_shape_dist = 0
+is_failed = false
 
-max_width = 14
+max_width = 6
 min_width = 2
 max_sp = 10
+max_shape_dist = 14
 
 xprev = 0
 yprev = 0
+
+result = ""
 
 function distanceToShape(lines_array, point) {
     var px = point[0];
