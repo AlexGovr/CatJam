@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"libShoot",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"libShoot",
+  "parent":{
+    "name":"Shooting",
+    "path":"folders/AlexLibs/Shooting.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

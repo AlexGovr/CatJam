@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"geometry",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"geometry",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/AlexLibs/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
