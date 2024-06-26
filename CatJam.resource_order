@@ -26,6 +26,7 @@
     {"name":"oCat","order":3,"path":"objects/oCat/oCat.yy",},
     {"name":"oHideSpot","order":4,"path":"objects/oHideSpot/oHideSpot.yy",},
     {"name":"oHSBox","order":5,"path":"objects/oHSBox/oHSBox.yy",},
+    {"name":"oLightSource","order":10,"path":"objects/oLightSource/oLightSource.yy",},
     {"name":"oParticles","order":1,"path":"objects/oParticles/oParticles.yy",},
     {"name":"oPoof","order":6,"path":"objects/oPoof/oPoof.yy",},
     {"name":"oShapeMatch","order":7,"path":"objects/oShapeMatch/oShapeMatch.yy",},

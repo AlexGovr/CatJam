@@ -45,6 +45,7 @@
     {"id":{"name":"oCat","path":"objects/oCat/oCat.yy",},},
     {"id":{"name":"oHideSpot","path":"objects/oHideSpot/oHideSpot.yy",},},
     {"id":{"name":"oHSBox","path":"objects/oHSBox/oHSBox.yy",},},
+    {"id":{"name":"oLightSource","path":"objects/oLightSource/oLightSource.yy",},},
     {"id":{"name":"oParticles","path":"objects/oParticles/oParticles.yy",},},
     {"id":{"name":"oPoof","path":"objects/oPoof/oPoof.yy",},},
     {"id":{"name":"oShapeMatch","path":"objects/oShapeMatch/oShapeMatch.yy",},},

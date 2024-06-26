@@ -36,6 +36,7 @@
     {"name":"inst_2ECB12FA","path":"rooms/rmShelter/rmShelter.yy",},
     {"name":"inst_54548490","path":"rooms/rmShelter/rmShelter.yy",},
     {"name":"inst_2AE05349","path":"rooms/rmShelter/rmShelter.yy",},
+    {"name":"inst_45163963","path":"rooms/rmShelter/rmShelter.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -66,6 +67,7 @@
         {"$GMRInstance":"","%Name":"inst_2ECB12FA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2ECB12FA","objectId":{"name":"oShapePoint","path":"objects/oShapePoint/oShapePoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1402.0,"y":715.0,},
         {"$GMRInstance":"","%Name":"inst_54548490","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_54548490","objectId":{"name":"oShapePoint","path":"objects/oShapePoint/oShapePoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1399.0,"y":703.0,},
         {"$GMRInstance":"","%Name":"inst_2AE05349","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2AE05349","objectId":{"name":"oShapePoint","path":"objects/oShapePoint/oShapePoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1439.0,"y":725.0,},
+        {"$GMRInstance":"","%Name":"inst_45163963","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45163963","objectId":{"name":"oLightSource","path":"objects/oLightSource/oLightSource.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":320.0,},
       ],"layers":[],"name":"ShapePoints","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"ShapeMatch","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_1647B885","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1647B885","objectId":{"name":"oShapeMatch","path":"objects/oShapeMatch/oShapeMatch.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":34.0,"y":17.0,},
