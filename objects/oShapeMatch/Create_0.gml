@@ -118,9 +118,19 @@ function click() {
 	oCat.moveTo(mouse_x, mouse_y)
 }
 
+function allPointsCaptured() {
+    var count = 0
+    with oShapePoint {
+        count += is_captured
+        is_captured = false
+    }
+    // make cure at least half points is captured
+    return count >= current_shape.shape_points_count * 0.5
+}
+
 function finishDrawing() {
 	var dist_to_first = point_distance(mouse_x, mouse_y, points[0][0], points[0][1])
-	if !is_failed or (dist_to_first < max_shape_dist) {
+	if !is_failed and (dist_to_first < max_shape_dist) and allPointsCaptured() {
 		result = "Success!"
 		oCat.startHiding(current_shape)
 	} else {
