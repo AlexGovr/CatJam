@@ -45,7 +45,6 @@
     {"name":"oTopDownSpaceShip","order":6,"path":"objects/oTopDownSpaceShip/oTopDownSpaceShip.yy",},
     {"name":"oTransition","order":1,"path":"objects/oTransition/oTransition.yy",},
     {"name":"rmShelter","order":1,"path":"rooms/rmShelter/rmShelter.yy",},
-    {"name":"rmStartScreen","order":2,"path":"rooms/rmStartScreen/rmStartScreen.yy",},
     {"name":"camera","order":1,"path":"scripts/camera/camera.yy",},
     {"name":"debug","order":2,"path":"scripts/debug/debug.yy",},
     {"name":"geometry","order":3,"path":"scripts/geometry/geometry.yy",},

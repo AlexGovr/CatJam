@@ -68,7 +68,6 @@
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},},
     {"id":{"name":"rmShelter","path":"rooms/rmShelter/rmShelter.yy",},},
     {"id":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"autotiling","path":"scripts/autotiling/autotiling.yy",},},
     {"id":{"name":"camera","path":"scripts/camera/camera.yy",},},
     {"id":{"name":"debug","path":"scripts/debug/debug.yy",},},
@@ -99,9 +98,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"rmShelter","path":"rooms/rmShelter/rmShelter.yy",},},
     {"roomId":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
+    {"roomId":{"name":"rmShelter","path":"rooms/rmShelter/rmShelter.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
