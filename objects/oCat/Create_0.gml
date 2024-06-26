@@ -1,5 +1,5 @@
 
-sp = 10
+sp = 6
 hiding_spot = noone
 is_hiding = false
 
@@ -25,6 +25,7 @@ function move() {
 function hide() {
 	is_hiding = true
 	visible = false
+    x = hiding_spot.x
     hiding_spot.trigger()
 }
 
