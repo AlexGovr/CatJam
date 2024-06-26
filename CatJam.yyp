@@ -43,6 +43,7 @@
   "name":"CatJam",
   "resources":[
     {"id":{"name":"fntDefault","path":"fonts/fntDefault/fntDefault.yy",},},
+    {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
     {"id":{"name":"libOInput","path":"objects/libOInput/libOInput.yy",},},
     {"id":{"name":"oBGShelter1","path":"objects/oBGShelter1/oBGShelter1.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
@@ -82,6 +83,7 @@
     {"id":{"name":"sSPBoxes","path":"sprites/sSPBoxes/sSPBoxes.yy",},},
     {"id":{"name":"sSPPod","path":"sprites/sSPPod/sSPPod.yy",},},
     {"id":{"name":"sSPTable","path":"sprites/sSPTable/sSPTable.yy",},},
+    {"id":{"name":"sTitleSketch","path":"sprites/sTitleSketch/sTitleSketch.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

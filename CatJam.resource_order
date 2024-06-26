@@ -23,6 +23,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Font2","order":1,"path":"fonts/Font2/Font2.yy",},
     {"name":"oBGShelter1","order":2,"path":"objects/oBGShelter1/oBGShelter1.yy",},
     {"name":"oCamera","order":11,"path":"objects/oCamera/oCamera.yy",},
     {"name":"oCat","order":3,"path":"objects/oCat/oCat.yy",},
@@ -57,5 +58,6 @@
     {"name":"sSPBoxes","order":10,"path":"sprites/sSPBoxes/sSPBoxes.yy",},
     {"name":"sSPPod","order":11,"path":"sprites/sSPPod/sSPPod.yy",},
     {"name":"sSPTable","order":12,"path":"sprites/sSPTable/sSPTable.yy",},
+    {"name":"sTitleSketch","order":14,"path":"sprites/sTitleSketch/sTitleSketch.yy",},
   ],
 }
