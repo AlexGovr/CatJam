@@ -28,6 +28,9 @@ function hide() {
 }
 
 function startHiding(spot) {
+    if spot == hiding_spot {
+        return
+    }
 	stopHiding()
 	hiding_spot = spot
 }
