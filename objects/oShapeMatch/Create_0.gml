@@ -19,6 +19,8 @@ min_width = 2
 max_sp = 10
 max_shape_dist = 14
 
+click_timer = MakeTimer(15)
+
 xprev = 0
 yprev = 0
 
@@ -110,4 +112,18 @@ function measure_shape_difference(lines_array, points_array) {
     var normalized_distance = total_distance / point_count;
     
     return normalized_distance;
+}
+
+function click() {
+	oCat.moveTo(mouse_x, mouse_y)
+}
+
+function finishDrawing() {
+	var dist_to_first = point_distance(mouse_x, mouse_y, points[0][0], points[0][1])
+	if !is_failed or (dist_to_first < max_shape_dist) {
+		result = "Success!"
+		oCat.startHiding(current_shape)
+	} else {
+		result = "Fail =("	
+	}
 }
