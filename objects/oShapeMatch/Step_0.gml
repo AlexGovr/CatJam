@@ -9,7 +9,9 @@ if !is_drawing {
 	}
 } else {
 	click_timer.update()
-	var sp = point_distance(mouse_x, mouse_y, xprev, yprev)
+	var sp_to = point_distance(mouse_x, mouse_y, xprev, yprev)
+	//sp = (sp_to - sp) * sp_gain
+	sp = Approach(sp, sp_to, accel)
 	xprev = mouse_x
 	yprev = mouse_y
 	var w = max(max_width * (1 - sp / max_sp), min_width)

@@ -14,9 +14,12 @@ current_shape = noone
 current_shape_dist = 0
 is_failed = false
 
-max_width = 6
+max_width = 12
 min_width = 2
 max_sp = 10
+sp = 0
+sp_gain = 0.2
+accel = 1
 max_shape_dist = 40
 
 click_timer = MakeTimer(15)
