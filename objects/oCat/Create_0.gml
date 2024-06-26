@@ -1,5 +1,5 @@
 
-sp = 5
+sp = 10
 hiding_spot = noone
 is_hiding = false
 

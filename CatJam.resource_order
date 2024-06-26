@@ -37,7 +37,7 @@
     {"name":"oTransition","order":1,"path":"objects/oTransition/oTransition.yy",},
     {"name":"oWinScreen","order":2,"path":"objects/oWinScreen/oWinScreen.yy",},
     {"name":"rmShelter","order":1,"path":"rooms/rmShelter/rmShelter.yy",},
-    {"name":"rmWinScreen","order":2,"path":"rooms/rmWinScreen/rmWinScreen.yy",},
+    {"name":"rmWinScreen","order":3,"path":"rooms/rmWinScreen/rmWinScreen.yy",},
     {"name":"camera","order":1,"path":"scripts/camera/camera.yy",},
     {"name":"debug","order":2,"path":"scripts/debug/debug.yy",},
     {"name":"geometry","order":3,"path":"scripts/geometry/geometry.yy",},

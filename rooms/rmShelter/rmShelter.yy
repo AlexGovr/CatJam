@@ -99,6 +99,7 @@
     {"name":"inst_2E6E458","path":"rooms/rmShelter/rmShelter.yy",},
     {"name":"inst_1322A200","path":"rooms/rmShelter/rmShelter.yy",},
     {"name":"inst_50B2F818","path":"rooms/rmShelter/rmShelter.yy",},
+    {"name":"inst_72243689","path":"rooms/rmShelter/rmShelter.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -191,6 +192,9 @@
         {"$GMRInstance":"","%Name":"inst_2E6E458","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E6E458","objectId":{"name":"oShapePoint","path":"objects/oShapePoint/oShapePoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2406.0,"y":528.0,},
         {"$GMRInstance":"","%Name":"inst_1322A200","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1322A200","objectId":{"name":"oShapePoint","path":"objects/oShapePoint/oShapePoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2411.0,"y":501.0,},
         {"$GMRInstance":"","%Name":"inst_50B2F818","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50B2F818","objectId":{"name":"oShapePoint","path":"objects/oShapePoint/oShapePoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2417.0,"y":479.0,},
+        {"$GMRInstance":"","%Name":"inst_72243689","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_72243689","objectId":{"name":"oLightSource","path":"objects/oLightSource/oLightSource.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oLightSource","path":"objects/oLightSource/oLightSource.yy",},"propertyId":{"name":"rot_speed","path":"objects/oLightSource/oLightSource.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.5",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":2922.0,"y":-48.0,},
       ],"layers":[],"name":"ShapePoints","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"ShapeMatch","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_1647B885","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1647B885","objectId":{"name":"oShapeMatch","path":"objects/oShapeMatch/oShapeMatch.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":34.0,"y":17.0,},

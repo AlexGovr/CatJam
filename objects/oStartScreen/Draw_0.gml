@@ -1,3 +1,3 @@
 
 draw_self()
-draw_text(room_width * 0.5, room_height * 0.5, Localize("start_button"))
+DrawTextLocalized(room_width*0.5, room_height*0.5, "start_button")

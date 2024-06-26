@@ -10,7 +10,11 @@ if is_transition {
 				room_restart()
 				is_restart = false
 			} else {
-				room_goto_next()
+                if room == room_last {
+                    room_goto(room_first)
+                } else {
+                    room_goto_next()
+                }
 			}
 		}
 	} else {

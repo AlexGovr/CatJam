@@ -19,7 +19,8 @@ selected_language = languages[0]
 
 _localization = {
     English: {
-        start_button: "Start"
+        start_button: "Start",
+		victory: "You found your new home!\nPurrrrr.... Purrrr..."
     }
 }
 
@@ -30,4 +31,11 @@ function Localize(string_id) {
 	return global._localization
                         [$ global.selected_language.id]
                         [$ string_id]
+}
+
+function DrawTextLocalized(x, y, string_id) {
+    draw_set_font(global.selected_language.font)
+    draw_set_valign(fa_middle)
+    draw_set_halign(fa_center)
+    draw_text(x, y, Localize(string_id))
 }
