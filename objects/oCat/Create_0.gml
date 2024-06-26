@@ -25,6 +25,7 @@ function move() {
 function hide() {
 	is_hiding = true
 	visible = false
+    hiding_spot.trigger()
 }
 
 function startHiding(spot) {

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oHSBox",
+  "%Name":"oHSArmchair",
   "eventList":[],
   "managed":true,
-  "name":"oHSBox",
+  "name":"oHSArmchair",
   "overriddenProperties":[],
   "parent":{
     "name":"HideSpots",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sHSBox",
-    "path":"sprites/sHSBox/sHSBox.yy",
+    "name":"sHSArmchair",
+    "path":"sprites/sHSArmchair/sHSArmchair.yy",
   },
   "spriteMaskId":null,
   "visible":true,

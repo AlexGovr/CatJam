@@ -17,7 +17,7 @@ is_failed = false
 max_width = 6
 min_width = 2
 max_sp = 10
-max_shape_dist = 14
+max_shape_dist = 40
 
 click_timer = MakeTimer(15)
 

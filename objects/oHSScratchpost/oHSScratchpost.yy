@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oHSBox",
+  "%Name":"oHSScratchpost",
   "eventList":[],
   "managed":true,
-  "name":"oHSBox",
+  "name":"oHSScratchpost",
   "overriddenProperties":[],
   "parent":{
     "name":"HideSpots",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sHSBox",
-    "path":"sprites/sHSBox/sHSBox.yy",
+    "name":"sHSScratchpost",
+    "path":"sprites/sHSScratchpost/sHSScratchpost.yy",
   },
   "spriteMaskId":null,
   "visible":true,

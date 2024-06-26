@@ -13,3 +13,7 @@ if !is_hiding {
         self.move()
     }
 }
+
+if (room_width - x) < 300 {
+    oTransition.transition()
+}
