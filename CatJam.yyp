@@ -58,9 +58,10 @@
     {"id":{"name":"oShapePoint","path":"objects/oShapePoint/oShapePoint.yy",},},
     {"id":{"name":"oStartScreen","path":"objects/oStartScreen/oStartScreen.yy",},},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},},
+    {"id":{"name":"oWinScreen","path":"objects/oWinScreen/oWinScreen.yy",},},
     {"id":{"name":"rmShelter","path":"rooms/rmShelter/rmShelter.yy",},},
     {"id":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
-    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+    {"id":{"name":"rmWinScreen","path":"rooms/rmWinScreen/rmWinScreen.yy",},},
     {"id":{"name":"camera","path":"scripts/camera/camera.yy",},},
     {"id":{"name":"debug","path":"scripts/debug/debug.yy",},},
     {"id":{"name":"geometry","path":"scripts/geometry/geometry.yy",},},
@@ -86,7 +87,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
     {"roomId":{"name":"rmShelter","path":"rooms/rmShelter/rmShelter.yy",},},
-    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+    {"roomId":{"name":"rmWinScreen","path":"rooms/rmWinScreen/rmWinScreen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
