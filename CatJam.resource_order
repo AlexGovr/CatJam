@@ -46,6 +46,7 @@
     {"name":"ui","order":5,"path":"scripts/ui/ui.yy",},
     {"name":"utils","order":6,"path":"scripts/utils/utils.yy",},
     {"name":"sBGShelter","order":2,"path":"sprites/sBGShelter/sBGShelter.yy",},
+    {"name":"sBlink","order":13,"path":"sprites/sBlink/sBlink.yy",},
     {"name":"sHideSpot1","order":3,"path":"sprites/sHideSpot1/sHideSpot1.yy",},
     {"name":"sHSArmchair","order":4,"path":"sprites/sHSArmchair/sHSArmchair.yy",},
     {"name":"sHSBox","order":5,"path":"sprites/sHSBox/sHSBox.yy",},
