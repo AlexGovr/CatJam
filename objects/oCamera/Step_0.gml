@@ -9,3 +9,9 @@ if abs(dist) > 1 {
 x = clamp(x, camw() * 0.5, room_width - camw() * 0.5)
 
 camera_set_pos(x, room_height * 0.5)
+
+if mouse_x >= camx() + camw() {
+	xto += sp_max
+} else if mouse_x <= camx() {
+	xto -= sp_max
+}

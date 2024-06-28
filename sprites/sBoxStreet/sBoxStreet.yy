@@ -23,7 +23,7 @@
   ],
   "name":"sBoxStreet",
   "nineSlice":null,
-  "origin":7,
+  "origin":9,
   "parent":{
     "name":"Streets",
     "path":"folders/Sprites/Streets.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":195,
+    "xorigin":229,
     "yorigin":252,
   },
   "swatchColours":null,

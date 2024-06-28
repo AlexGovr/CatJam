@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oHSScratchpost",
+  "%Name":"oBox",
   "eventList":[],
   "managed":true,
-  "name":"oHSScratchpost",
+  "name":"oBox",
   "overriddenProperties":[],
   "parent":{
-    "name":"Shelter",
-    "path":"folders/Objects/Shelter.yy",
+    "name":"Streets",
+    "path":"folders/Objects/Streets.yy",
   },
   "parentObjectId":{
     "name":"oHideSpotParent",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sHSScratchpost",
-    "path":"sprites/sHSScratchpost/sHSScratchpost.yy",
+    "name":"sBoxStreet",
+    "path":"sprites/sBoxStreet/sBoxStreet.yy",
   },
   "spriteMaskId":null,
   "visible":true,
