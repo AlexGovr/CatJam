@@ -8,8 +8,8 @@
   "name":"oHideSpotParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"HideSpots",
-    "path":"folders/Objects/HideSpots.yy",
+    "name":"Shelter",
+    "path":"folders/Objects/Shelter.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,8 +26,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"camera_focus","filters":[],"listItems":[],"multiselect":false,"name":"camera_focus","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"camera_move_x","filters":[],"listItems":[],"multiselect":false,"name":"camera_move_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"camera_focus","filters":[],"listItems":[],"multiselect":false,"name":"camera_focus","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"camera_move_x","filters":[],"listItems":[],"multiselect":false,"name":"camera_move_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

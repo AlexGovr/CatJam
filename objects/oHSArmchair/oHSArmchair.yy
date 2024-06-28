@@ -6,8 +6,8 @@
   "name":"oHSArmchair",
   "overriddenProperties":[],
   "parent":{
-    "name":"HideSpots",
-    "path":"folders/Objects/HideSpots.yy",
+    "name":"Shelter",
+    "path":"folders/Objects/Shelter.yy",
   },
   "parentObjectId":{
     "name":"oHideSpotParent",
