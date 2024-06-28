@@ -9,7 +9,10 @@
     "name":"Streets",
     "path":"folders/Objects/Streets.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oHideSpotParent",
+    "path":"objects/oHideSpotParent/oHideSpotParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

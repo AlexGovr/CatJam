@@ -29,9 +29,9 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"rot_speed","filters":[],"listItems":[],"multiselect":false,"name":"rot_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"min_angle","filters":[],"listItems":[],"multiselect":false,"name":"min_angle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"225","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"max_angle","filters":[],"listItems":[],"multiselect":false,"name":"max_angle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"315","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"cone_angle","filters":[],"listItems":[],"multiselect":false,"name":"cone_angle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"min_angle","filters":[],"listItems":[],"multiselect":false,"name":"min_angle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"270","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"max_angle","filters":[],"listItems":[],"multiselect":false,"name":"max_angle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"305","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"cone_angle","filters":[],"listItems":[],"multiselect":false,"name":"cone_angle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"15","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"min_angle_wait_time","filters":[],"listItems":[],"multiselect":false,"name":"min_angle_wait_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"max_angle_wait_time","filters":[],"listItems":[],"multiselect":false,"name":"max_angle_wait_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
   ],
