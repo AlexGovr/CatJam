@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPoof",
-    "path":"sprites/sPoof/sPoof.yy",
+    "name":"sMCPoof",
+    "path":"sprites/sMCPoof/sMCPoof.yy",
   },
   "spriteMaskId":null,
   "visible":true,
