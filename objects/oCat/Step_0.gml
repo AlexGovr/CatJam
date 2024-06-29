@@ -14,6 +14,17 @@ if !is_hiding {
     }
 }
 
+// debug teleporting
+if DEV and mouse_check_button_pressed(mb_right) {
+    xto = mouse_x
+    x = mouse_x
+    var spot = collision_point(mouse_x, mouse_y, oHideSpotParent, false, false)
+    if spot {
+        hiding_spot = spot
+        hide()
+    }
+}
+
 if (room_width - x) < 300 {
     oTransition.transition()
 }

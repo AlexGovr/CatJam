@@ -70,6 +70,7 @@
     {"id":{"name":"oShapeMatch","path":"objects/oShapeMatch/oShapeMatch.yy",},},
     {"id":{"name":"oShapePoint","path":"objects/oShapePoint/oShapePoint.yy",},},
     {"id":{"name":"oStartScreen","path":"objects/oStartScreen/oStartScreen.yy",},},
+    {"id":{"name":"oSys","path":"objects/oSys/oSys.yy",},},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},},
     {"id":{"name":"oWinScreen","path":"objects/oWinScreen/oWinScreen.yy",},},
     {"id":{"name":"rmShelter","path":"rooms/rmShelter/rmShelter.yy",},},

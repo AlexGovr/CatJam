@@ -8,6 +8,11 @@ if !wait_timer.timer and (is_max_angle or is_min_angle) {
     wait_timer.timer = is_max_angle ? max_angle_wait_time : min_angle_wait_time
 }
 
+x += hor_speed * hor_dir
+if (x <= min_x) or (x >= max_x) {
+    hor_dir *= -1
+}
+
 // rotate auxiliary vectors
 p1.rotate(rot_dir * _rot_speed)
 p2.rotate(rot_dir * _rot_speed)

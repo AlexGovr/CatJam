@@ -46,6 +46,7 @@
     {"name":"oPoof","order":6,"path":"objects/oPoof/oPoof.yy",},
     {"name":"oShapeMatch","order":7,"path":"objects/oShapeMatch/oShapeMatch.yy",},
     {"name":"oShapePoint","order":8,"path":"objects/oShapePoint/oShapePoint.yy",},
+    {"name":"oSys","order":3,"path":"objects/oSys/oSys.yy",},
     {"name":"oTransition","order":1,"path":"objects/oTransition/oTransition.yy",},
     {"name":"oWinScreen","order":2,"path":"objects/oWinScreen/oWinScreen.yy",},
     {"name":"rmShelter","order":1,"path":"rooms/rmShelter/rmShelter.yy",},
