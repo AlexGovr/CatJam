@@ -35,7 +35,7 @@ function hide() {
 	is_hiding = true
 	visible = false
     x = hiding_spot.x
-    hiding_spot.trigger()
+	instance_create_layer(hiding_spot.x, hiding_spot.y, "Cat", oCatBlinkingEyes)
 }
 
 function startHiding(spot) {
@@ -50,4 +50,5 @@ function stopHiding() {
 	is_hiding = false
 	visible = true
 	hiding_spot = noone
+	instance_destroy(oCatBlinkingEyes)
 }

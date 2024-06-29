@@ -280,16 +280,16 @@ function Timer(time, initial=undefined) constructor {
 }
 
 function _animGetTreshold() {
-    return sprite_frames_per_step(sprite_index)
+    return SpriteFramesPerStep(sprite_index)
 }
 
 function IsAnimationEnd() {
-    return abs(image_index - (image_number - 1)) < _AnimGetTreshold()
+    return abs(image_index - (image_number - 1)) < _animGetTreshold()
 }
 
 function IsAnimationAtFrame(frame) {
     var delta = image_index - frame
-    return delta >= 0 && delta <= _AnimGetTreshold()
+    return delta >= 0 && delta <= _animGetTreshold()
 }
 
 function SpriteFramesPerStep(spr) {
