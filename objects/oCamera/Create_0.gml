@@ -7,5 +7,6 @@ sp_max = 20
 sp_gain = 0.3
 
 function moveTo(xx) {
-	xto = xx
+    // suspend as we can move camera with mouse
+	// xto = xx
 }
