@@ -6,6 +6,7 @@ if !is_drawing {
 		array_push(points, [mouse_x, mouse_y, min_width])
 		current_shape = instance_nearest(mouse_x, mouse_y, oShapePoint).hiding_spot
 		is_failed = false
+        audio_play_sound(snd_click, 0, false)
 	}
 } else {
 	click_timer.update()

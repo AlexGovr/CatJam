@@ -53,6 +53,7 @@
     {"id":{"name":"fntDefault","path":"fonts/fntDefault/fntDefault.yy",},},
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
     {"id":{"name":"libOInput","path":"objects/libOInput/libOInput.yy",},},
+    {"id":{"name":"oAmbienSounds","path":"objects/oAmbienSounds/oAmbienSounds.yy",},},
     {"id":{"name":"oBGShelter1","path":"objects/oBGShelter1/oBGShelter1.yy",},},
     {"id":{"name":"oBox","path":"objects/oBox/oBox.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},

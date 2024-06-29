@@ -9,6 +9,7 @@ yto = y
 danger_level = 0
 danger_fall_sp = 0.1
 danger_ratio = danger_fall_sp + 0.6
+failed = false
 
 function danger() {
     danger_level += 1 + danger_ratio

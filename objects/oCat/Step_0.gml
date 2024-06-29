@@ -17,8 +17,10 @@ if !is_hiding {
 danger_level -= danger_fall_sp
 danger_level = clamp(danger_level, 0, 100)
 
-if danger_level >= 100 {
+if danger_level >= 100 and !failed {
     oTransition.restart()
+    audio_play_sound(snd_fail, 0, false)
+    failed = true
 }
 
 // debug teleporting
@@ -34,4 +36,5 @@ if DEV and mouse_check_button_pressed(mb_right) {
 
 if (room_width - x) < 300 {
     oTransition.transition()
+    audio_play_sound(snd_success, 0, false)
 }
