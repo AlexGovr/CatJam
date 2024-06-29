@@ -1,5 +1,5 @@
 
-var col = is_failed ? c_red : c_lime
+var col = colors[status]
 for (var i = 0; i < array_length(points) - 1; ++i) {
 	var p = points[i]
 	var pp = points[i + 1]
