@@ -10,7 +10,8 @@ function Language(id, display_name=undefined, font=undefined) constructor {
 }
 
 languages = [
-    new Language("English"),
+    new Language("English", undefined, 
+			font_add("StayPuft.ttf", 96, false, false, 32, 128)),
     // new Language("Deutch"),
     // new Language("Russian", "Русский"),
 ]

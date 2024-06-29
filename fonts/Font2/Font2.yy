@@ -9,7 +9,7 @@
   "canGenerateBitmap":true,
   "charset":0,
   "first":0,
-  "fontName":"Ubuntu",
+  "fontName":".Baghdad PUA",
   "glyphOperations":0,
   "glyphs":{
     "32":{"character":32,"h":18,"offset":0,"shift":4,"w":4,"x":2,"y":2,},
@@ -253,7 +253,6 @@
   },
   "pointRounding":0,
   "ranges":[
-    {"lower":32,"upper":127,},
     {"lower":9647,"upper":9647,},
   ],
   "regenerateBitmap":false,
