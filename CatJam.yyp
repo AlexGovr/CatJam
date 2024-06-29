@@ -32,9 +32,7 @@
   ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":".DS_Store","CopyToMask":-1,"filePath":"datafiles","name":".DS_Store","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"OpenSans-Regular.ttf","CopyToMask":-1,"filePath":"datafiles","name":"OpenSans-Regular.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"StayPuft.ttf","CopyToMask":-1,"filePath":"datafiles","name":"StayPuft.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"Ubuntu-R.ttf","CopyToMask":-1,"filePath":"datafiles","name":"Ubuntu-R.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -104,6 +102,7 @@
     {"id":{"name":"sBoxStreet","path":"sprites/sBoxStreet/sBoxStreet.yy",},},
     {"id":{"name":"sCatSketch","path":"sprites/sCatSketch/sCatSketch.yy",},},
     {"id":{"name":"sDanger","path":"sprites/sDanger/sDanger.yy",},},
+    {"id":{"name":"sEnglish","path":"sprites/sEnglish/sEnglish.yy",},},
     {"id":{"name":"sHDStatue","path":"sprites/sHDStatue/sHDStatue.yy",},},
     {"id":{"name":"sHideSpot1","path":"sprites/sHideSpot1/sHideSpot1.yy",},},
     {"id":{"name":"sHSArmchair","path":"sprites/sHSArmchair/sHSArmchair.yy",},},

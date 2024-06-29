@@ -68,6 +68,7 @@
     {"name":"snd_validate","order":6,"path":"sounds/snd_validate/snd_validate.yy",},
     {"name":"sBoxStreet","order":3,"path":"sprites/sBoxStreet/sBoxStreet.yy",},
     {"name":"sCatSketch","order":7,"path":"sprites/sCatSketch/sCatSketch.yy",},
+    {"name":"sEnglish","order":5,"path":"sprites/sEnglish/sEnglish.yy",},
     {"name":"sHDStatue","order":10,"path":"sprites/sHDStatue/sHDStatue.yy",},
     {"name":"sHideSpot1","order":3,"path":"sprites/sHideSpot1/sHideSpot1.yy",},
     {"name":"sHSArmchair","order":5,"path":"sprites/sHSArmchair/sHSArmchair.yy",},
