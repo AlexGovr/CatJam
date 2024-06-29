@@ -7,10 +7,11 @@ xto = x
 yto = y
 
 danger_level = 0
-difficulty = 1
+danger_fall_sp = 0.1
+danger_ratio = danger_fall_sp + 0.6
 
 function danger() {
-    danger_level += 1 + difficulty
+    danger_level += 1 + danger_ratio
 }
 
 function moveTo(xx, yy) {

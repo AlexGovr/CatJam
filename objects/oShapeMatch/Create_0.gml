@@ -20,7 +20,7 @@ max_sp = 10
 sp = 0
 sp_gain = 0.2
 accel = 1
-max_shape_dist = 40
+max_shape_dist = 20
 
 click_timer = MakeTimer(15)
 

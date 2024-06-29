@@ -14,7 +14,7 @@ if !is_hiding {
     }
 }
 
-danger_level--
+danger_level -= danger_fall_sp
 danger_level = clamp(danger_level, 0, 100)
 
 if danger_level >= 100 {
