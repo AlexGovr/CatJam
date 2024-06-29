@@ -10,8 +10,13 @@ function Language(id, display_name=undefined, font=undefined) constructor {
 }
 
 languages = [
-    new Language("English", undefined, 
-			font_add("StayPuft.ttf", 96, false, false, 32, 128)),
+    new Language("English", undefined,
+            // Font2
+			//font_add("StayPuft.ttf", 96, false, false, 32, 128)
+			// font_add("OpenSans-Regular.ttf", 96, false, false, 32, 128)
+			font_add("Ubuntu-R.ttf", 96, false, false, 32, 128)
+            
+    ),
     // new Language("Deutch"),
     // new Language("Russian", "Русский"),
 ]
@@ -21,7 +26,9 @@ selected_language = languages[0]
 _localization = {
     English: {
         start_button: "Start",
-		victory: "You found your new home!\nPurrrrr.... Purrrr..."
+		victory: "You found your new home!\nPurrrrr.... Purrrr...",
+		tutorial_outlining: "Outline\na place\nto hide",
+		tutorial_lights: "Keep away from lights!"
     }
 }
 

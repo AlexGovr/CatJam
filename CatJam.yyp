@@ -32,7 +32,9 @@
   ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":".DS_Store","CopyToMask":-1,"filePath":"datafiles","name":".DS_Store","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"OpenSans-Regular.ttf","CopyToMask":-1,"filePath":"datafiles","name":"OpenSans-Regular.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"StayPuft.ttf","CopyToMask":-1,"filePath":"datafiles","name":"StayPuft.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"Ubuntu-R.ttf","CopyToMask":-1,"filePath":"datafiles","name":"Ubuntu-R.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
