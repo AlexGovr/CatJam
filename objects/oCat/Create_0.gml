@@ -6,6 +6,13 @@ is_hiding = false
 xto = x
 yto = y
 
+danger_level = 0
+difficulty = 1
+
+function danger() {
+    danger_level += 1 + difficulty
+}
+
 function moveTo(xx, yy) {
     stopHiding()
     xto = xx

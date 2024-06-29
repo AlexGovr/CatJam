@@ -20,5 +20,5 @@ if on_timer.timer && !oCat.is_hiding && rectangle_in_triangle(
     line1.xend, line1.yend,
     line2.xend, line2.yend,
 ) {
-    oTransition.restart()
+    oCat.danger()
 }

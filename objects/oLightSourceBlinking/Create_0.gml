@@ -14,8 +14,8 @@ line2.mult(ua2)
 
 
 
-on_timer = MakeTimer(240)
-off_timer = MakeTimer(240, 0)
+on_timer = MakeTimer(on_time)
+off_timer = MakeTimer(off_time, 0)
 blink_timer = MakeTimer(10, 0)
 
 blink_frames = [

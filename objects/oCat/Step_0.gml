@@ -14,6 +14,13 @@ if !is_hiding {
     }
 }
 
+danger_level--
+danger_level = clamp(danger_level, 0, 100)
+
+if danger_level >= 100 {
+    oTransition.restart()
+}
+
 // debug teleporting
 if DEV and mouse_check_button_pressed(mb_right) {
     xto = mouse_x

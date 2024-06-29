@@ -20,6 +20,7 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"UI","order":25,"path":"folders/Sprites/UI.yy",},
     {"name":"Main Menu","order":24,"path":"folders/Sprites/Main Menu.yy",},
     {"name":"Shelter","order":21,"path":"folders/Sprites/Shelter.yy",},
     {"name":"Streets","order":22,"path":"folders/Sprites/Streets.yy",},
