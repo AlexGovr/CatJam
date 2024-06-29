@@ -15,8 +15,8 @@ function moveTo(xx, yy) {
 function move() {
     var dist = xto - x
     if abs(dist) > sp {
-        image_xscale = sign(dist)
-        x += sp * image_xscale
+        image_xscale = sign(dist) * abs(image_xscale)
+        x += sp * sign(dist)
     } else {
         x = xto
     }
