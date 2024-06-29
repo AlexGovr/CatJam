@@ -64,6 +64,7 @@
     {"id":{"name":"oHSTree","path":"objects/oHSTree/oHSTree.yy",},},
     {"id":{"name":"oHSUmbrella","path":"objects/oHSUmbrella/oHSUmbrella.yy",},},
     {"id":{"name":"oLightSource","path":"objects/oLightSource/oLightSource.yy",},},
+    {"id":{"name":"oLightSourceBlinking","path":"objects/oLightSourceBlinking/oLightSourceBlinking.yy",},},
     {"id":{"name":"oMusic","path":"objects/oMusic/oMusic.yy",},},
     {"id":{"name":"oParticles","path":"objects/oParticles/oParticles.yy",},},
     {"id":{"name":"oPoof","path":"objects/oPoof/oPoof.yy",},},

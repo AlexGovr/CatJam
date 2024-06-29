@@ -41,6 +41,7 @@
     {"name":"oHSTree","order":2,"path":"objects/oHSTree/oHSTree.yy",},
     {"name":"oHSUmbrella","order":1,"path":"objects/oHSUmbrella/oHSUmbrella.yy",},
     {"name":"oLightSource","order":10,"path":"objects/oLightSource/oLightSource.yy",},
+    {"name":"oLightSourceBlinking","order":14,"path":"objects/oLightSourceBlinking/oLightSourceBlinking.yy",},
     {"name":"oMusic","order":2,"path":"objects/oMusic/oMusic.yy",},
     {"name":"oParticles","order":1,"path":"objects/oParticles/oParticles.yy",},
     {"name":"oPoof","order":6,"path":"objects/oPoof/oPoof.yy",},
