@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sMCSketch",
-    "path":"sprites/sMCSketch/sMCSketch.yy",
+    "name":"sCatSketch",
+    "path":"sprites/sCatSketch/sCatSketch.yy",
   },
   "spriteMaskId":null,
   "visible":true,
