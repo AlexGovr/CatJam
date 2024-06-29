@@ -14,13 +14,12 @@ line2.mult(ua2)
 
 
 
-on_timer = MakeTimer(300)
-off_timer = MakeTimer(300, 0)
+on_timer = MakeTimer(240)
+off_timer = MakeTimer(240, 0)
 blink_timer = MakeTimer(10, 0)
 
 blink_frames = [
-    150, 130, 110,
-    70, 60,
+    90, 65, 50, 30, 15
 ]
 
 function isBlinkFrame(timer) {
