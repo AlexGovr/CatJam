@@ -12,6 +12,7 @@
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Cutscenes","order":26,"path":"folders/Sprites/Cutscenes.yy",},
     {"name":"Main Menu","order":24,"path":"folders/Sprites/Main Menu.yy",},
     {"name":"Shelter","order":21,"path":"folders/Sprites/Shelter.yy",},
     {"name":"Streets","order":22,"path":"folders/Sprites/Streets.yy",},
