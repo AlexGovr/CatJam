@@ -5,6 +5,7 @@ is_hiding = false
 
 xto = x
 yto = y
+in_control = true
 
 danger_level = 0
 danger_fall_sp = 0.1
@@ -16,6 +17,9 @@ function danger() {
 }
 
 function moveTo(xx, yy) {
+    if !in_control {
+        return
+    }
     stopHiding()
     xto = xx
     yto = yy

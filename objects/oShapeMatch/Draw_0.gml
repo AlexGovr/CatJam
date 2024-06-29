@@ -14,7 +14,6 @@ for (var i = 0; i < array_length(points) - 1; ++i) {
 	if steps > 0 {
 		var test = true	
 	}
-	show_debug_message("Drawing...{0}", array_length(points))
     for (var j = 0; j < steps; ++j) {
         var fract = j / steps
         var xx = p[0] + lenx * fract

@@ -111,6 +111,10 @@
     {"name":"inst_7683FF7C","path":"rooms/rmShelter/rmShelter.yy",},
     {"name":"inst_7CDB79E3","path":"rooms/rmShelter/rmShelter.yy",},
     {"name":"inst_31BC1174","path":"rooms/rmShelter/rmShelter.yy",},
+    {"name":"inst_662ADD01","path":"rooms/rmShelter/rmShelter.yy",},
+    {"name":"inst_149D30BE","path":"rooms/rmShelter/rmShelter.yy",},
+    {"name":"inst_2927BE1A","path":"rooms/rmShelter/rmShelter.yy",},
+    {"name":"inst_4D002AB1","path":"rooms/rmShelter/rmShelter.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -230,6 +234,10 @@
       ],"layers":[],"name":"ShapeMatch","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Cat","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_31BC1174","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31BC1174","objectId":{"name":"oCat","path":"objects/oCat/oCat.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5739911,"scaleY":1.7901235,"x":255.0,"y":927.0,},
+        {"$GMRInstance":"","%Name":"inst_662ADD01","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_662ADD01","objectId":{"name":"oTutorial","path":"objects/oTutorial/oTutorial.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":5.0,"x":800.0,"y":384.0,},
+        {"$GMRInstance":"","%Name":"inst_149D30BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_149D30BE","objectId":{"name":"oTutorialLights","path":"objects/oTutorialLights/oTutorialLights.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":5.0,"x":800.0,"y":128.0,},
+        {"$GMRInstance":"","%Name":"inst_2927BE1A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2927BE1A","objectId":{"name":"oTutorialMove","path":"objects/oTutorialMove/oTutorialMove.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":5.0,"x":288.0,"y":480.0,},
+        {"$GMRInstance":"","%Name":"inst_4D002AB1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D002AB1","objectId":{"name":"oTutorialNavigate","path":"objects/oTutorialNavigate/oTutorialNavigate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":5.0,"x":1504.0,"y":128.0,},
       ],"layers":[],"name":"Cat","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_6E361E48","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E361E48","objectId":{"name":"oHSBox","path":"objects/oHSBox/oHSBox.yy",},"properties":[

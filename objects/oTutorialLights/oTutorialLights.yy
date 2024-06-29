@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"oHSBox",
-  "eventList":[],
+  "%Name":"oTutorialLights",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oHSBox",
+  "name":"oTutorialLights",
   "overriddenProperties":[],
   "parent":{
-    "name":"Shelter",
-    "path":"folders/Objects/Shelter.yy",
+    "name":"Tutorial",
+    "path":"folders/Objects/Tutorial.yy",
   },
   "parentObjectId":{
-    "name":"oHideSpotParent",
-    "path":"objects/oHideSpotParent/oHideSpotParent.yy",
+    "name":"oTutorial",
+    "path":"objects/oTutorial/oTutorial.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sHSBox",
-    "path":"sprites/sHSBox/sHSBox.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
