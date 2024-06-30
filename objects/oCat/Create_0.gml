@@ -12,6 +12,11 @@ danger_fall_sp = 0.1
 danger_ratio = danger_fall_sp + 0.6
 failed = false
 
+var scale = 0.75
+image_xscale = scale
+image_yscale = scale
+image_speed = 0
+
 function danger() {
     danger_level += 1 + danger_ratio
 }
@@ -30,8 +35,10 @@ function move() {
     if abs(dist) > sp {
         image_xscale = sign(dist) * abs(image_xscale)
         x += sp * sign(dist)
+		image_speed = 1
     } else {
         x = xto
+		image_speed = 0
     }
 }
 
