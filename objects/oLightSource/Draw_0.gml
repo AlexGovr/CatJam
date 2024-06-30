@@ -7,4 +7,5 @@ draw_triangle(
     line2.xend, line2.yend,
     false
 )
+draw_set_color(c_white)
 draw_set_alpha(1)
