@@ -35,3 +35,12 @@ function ButtonSetScale(_mouse_in_button){
 	
 }
 
+function SetAllButtonsInactive() {
+	
+	with oSSButtonParent
+	active = false
+		
+}
+
+
+
