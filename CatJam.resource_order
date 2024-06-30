@@ -75,6 +75,7 @@
     {"name":"music_ending","order":15,"path":"sounds/music_ending/music_ending.yy",},
     {"name":"music_house","order":10,"path":"sounds/music_house/music_house.yy",},
     {"name":"music_mainscreen","order":11,"path":"sounds/music_mainscreen/music_mainscreen.yy",},
+    {"name":"music_opening","order":16,"path":"sounds/music_opening/music_opening.yy",},
     {"name":"music_shelter","order":12,"path":"sounds/music_shelter/music_shelter.yy",},
     {"name":"music_street","order":13,"path":"sounds/music_street/music_street.yy",},
     {"name":"snd_ambhouse","order":7,"path":"sounds/snd_ambhouse/snd_ambhouse.yy",},
