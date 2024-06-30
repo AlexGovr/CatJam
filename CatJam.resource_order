@@ -85,6 +85,7 @@
     {"name":"snd_success","order":4,"path":"sounds/snd_success/snd_success.yy",},
     {"name":"snd_unpause","order":5,"path":"sounds/snd_unpause/snd_unpause.yy",},
     {"name":"snd_validate","order":6,"path":"sounds/snd_validate/snd_validate.yy",},
+    {"name":"sAlert","order":27,"path":"sprites/sAlert/sAlert.yy",},
     {"name":"sArrow","order":26,"path":"sprites/sArrow/sArrow.yy",},
     {"name":"sBoxStreet","order":3,"path":"sprites/sBoxStreet/sBoxStreet.yy",},
     {"name":"sButton1","order":9,"path":"sprites/sButton1/sButton1.yy",},

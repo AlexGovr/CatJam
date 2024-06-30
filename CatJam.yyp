@@ -121,6 +121,7 @@
     {"id":{"name":"snd_success","path":"sounds/snd_success/snd_success.yy",},},
     {"id":{"name":"snd_unpause","path":"sounds/snd_unpause/snd_unpause.yy",},},
     {"id":{"name":"snd_validate","path":"sounds/snd_validate/snd_validate.yy",},},
+    {"id":{"name":"sAlert","path":"sprites/sAlert/sAlert.yy",},},
     {"id":{"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},},
     {"id":{"name":"sBGShelter","path":"sprites/sBGShelter/sBGShelter.yy",},},
     {"id":{"name":"sBGStreets","path":"sprites/sBGStreets/sBGStreets.yy",},},
