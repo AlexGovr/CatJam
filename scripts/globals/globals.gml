@@ -5,3 +5,5 @@
 
 dev_room_start = undefined
 //dev_room_start = rmStreets
+
+tutorial_done = false

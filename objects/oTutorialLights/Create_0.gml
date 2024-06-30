@@ -13,5 +13,9 @@ function activate() {
 destroy_timer = MakeTimer(240)
 
 function checkComplete() {
-    return !destroy_timer.update()
+    if !destroy_timer.update() {
+        global.tutorial_done = true
+        return true
+    }
+    return false
 }
