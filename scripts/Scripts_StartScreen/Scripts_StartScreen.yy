@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"Scripts_StartScreen",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Scripts_StartScreen",
+  "parent":{
+    "name":"StartScreen",
+    "path":"folders/Objects/StartScreen.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

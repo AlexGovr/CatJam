@@ -24,7 +24,10 @@ selected_language = languages[0]
 
 _localization = {
     English: {
-        start_button: "Start",
+        button_start: "Start",
+		button_languages: "Languages",
+		button_difficulty: "Difficulty",
+		button_options: "Options",		
 		victory: "You found your new home!\nPurrrrr.... Purrrr...",
 		tut_outlining: "Outline a hidey spot\nwith your mouse",
         tut_click_to_move: "Click\nto move",
@@ -48,5 +51,16 @@ function DrawTextLocalized(x, y, string_id) {
     draw_set_halign(fa_center)
 	draw_set_color(#f2dfbb)
     draw_text(x, y, Localize(string_id))
+	draw_set_color(c_white)
+}
+
+function DrawTextLocalizedExt(x, y, string_id, _halign = fa_center, _valign = fa_middle, 
+	_xscale = 1, _yscale = 1, _col = #f2dfbb, _alpha = 1) {
+    draw_set_font(global.selected_language.font)
+    draw_set_valign(_halign)
+    draw_set_halign(_valign)
+    draw_text_transformed_color(x, y, Localize(string_id), _xscale, _yscale, 0, 
+	_col, _col, _col, _col, _alpha)
+
 	draw_set_color(c_white)
 }
