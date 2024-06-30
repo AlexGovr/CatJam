@@ -17,6 +17,14 @@ image_xscale = scale
 image_yscale = scale
 image_speed = 0
 
+// poof particle
+psys = part_system_create()
+part_poof = part_type_create()
+part_type_sprite(part_poof, sMCPoof, true, true, false)
+part_type_life(part_poof, 30, 30)
+part_type_scale(part_poof, 1.5, 1.5)
+
+
 function danger() {
     danger_level += 1 + danger_ratio
 }
@@ -46,6 +54,7 @@ function hide() {
 	is_hiding = true
 	visible = false
     x = hiding_spot.x
+	part_particles_create(psys, x, y, part_poof, 1)
 	instance_create_layer(hiding_spot.x, hiding_spot.y, "Cat", oCatBlinkingEyes)
 }
 
