@@ -110,6 +110,7 @@
     {"id":{"name":"music_ending","path":"sounds/music_ending/music_ending.yy",},},
     {"id":{"name":"music_house","path":"sounds/music_house/music_house.yy",},},
     {"id":{"name":"music_mainscreen","path":"sounds/music_mainscreen/music_mainscreen.yy",},},
+    {"id":{"name":"music_opening","path":"sounds/music_opening/music_opening.yy",},},
     {"id":{"name":"music_shelter","path":"sounds/music_shelter/music_shelter.yy",},},
     {"id":{"name":"music_street","path":"sounds/music_street/music_street.yy",},},
     {"id":{"name":"snd_ambhouse","path":"sounds/snd_ambhouse/snd_ambhouse.yy",},},
