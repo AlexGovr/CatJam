@@ -164,6 +164,8 @@
     {"id":{"name":"sSPRailing","path":"sprites/sSPRailing/sSPRailing.yy",},},
     {"id":{"name":"sSPStop","path":"sprites/sSPStop/sSPStop.yy",},},
     {"id":{"name":"sSPTable","path":"sprites/sSPTable/sSPTable.yy",},},
+    {"id":{"name":"sStartScene","path":"sprites/sStartScene/sStartScene.yy",},},
+    {"id":{"name":"sStartSceneComic","path":"sprites/sStartSceneComic/sStartSceneComic.yy",},},
     {"id":{"name":"sStreetsGroundTile","path":"sprites/sStreetsGroundTile/sStreetsGroundTile.yy",},},
     {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},},
   ],

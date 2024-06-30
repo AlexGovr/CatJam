@@ -124,6 +124,8 @@
     {"name":"sSPRailing","order":9,"path":"sprites/sSPRailing/sSPRailing.yy",},
     {"name":"sSPStop","order":11,"path":"sprites/sSPStop/sSPStop.yy",},
     {"name":"sSPTable","order":4,"path":"sprites/sSPTable/sSPTable.yy",},
+    {"name":"sStartScene","order":1,"path":"sprites/sStartScene/sStartScene.yy",},
+    {"name":"sStartSceneComic","order":2,"path":"sprites/sStartSceneComic/sStartSceneComic.yy",},
     {"name":"sStreetsGroundTile","order":1,"path":"sprites/sStreetsGroundTile/sStreetsGroundTile.yy",},
   ],
 }
