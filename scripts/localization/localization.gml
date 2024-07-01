@@ -1,26 +1,11 @@
 
 #macro LANG_ENGLISH "English"
-#macro LANG_RUSSIAN "Russian"
 #macro LANG_DEUTCH "Deutch"
+#macro LANG_FRENCH "French"
+#macro LANG_RUSSIAN "Russian"
 
-function Language(id, display_name=undefined, font=undefined) constructor {
-    self.id = id
-    self.font = font ?? fntDefault
-    self.display_name = display_name ?? id
-}
-
-languages = [
-    new Language("English", undefined,
-			//font_add("StayPuft.ttf", 96, false, false, 32, 128)
-			// font_add("OpenSans-Regular.ttf", 96, false, false, 32, 128)
-			font_add("Ubuntu-R.ttf", 96, false, false, 32, 128)
-            
-    ),
-    // new Language("Deutch"),
-    // new Language("Russian", "Русский"),
-]
-
-selected_language = languages[0]
+fntMain = font_add("Ubuntu-R.ttf", 96, false, false, 32, 128)
+selected_language = LANG_ENGLISH
 
 _localization = {
     English: {
@@ -33,20 +18,57 @@ _localization = {
         tut_click_to_move: "Click\nto move",
         tut_navigate: "Move mouse\nto look around",
 		tut_lights: "Don't get spotted!",
-    }
+    },
+    Deutch: {
+        button_start: undefined,
+		button_languages: undefined,
+		button_difficulty: undefined,
+		button_options: undefined,
+		victory: undefined,
+		tut_outlining: undefined,
+        tut_click_to_move: undefined,
+        tut_navigate: undefined,
+		tut_lights: undefined,
+    },
+    French: {
+        button_start: undefined,
+		button_languages: undefined,
+		button_difficulty: undefined,
+		button_options: undefined,
+		victory: undefined,
+		tut_outlining: undefined,
+        tut_click_to_move: undefined,
+        tut_navigate: undefined,
+		tut_lights: undefined,
+    },
+    Russian: {
+        button_start: "Начать",
+		button_languages: "Язык",
+		button_difficulty: "Сложность",
+		button_options: "Настройки",
+		victory: "Ты нашел свой новый дом! Мурррр...",
+		tut_outlining: "Обведи мышью место,\nчтобы спрятаться",
+        tut_click_to_move: "Кликни, чтобы переместиться",
+        tut_navigate: "Камеру можно двигать мышью",
+		tut_lights: "Берегись лучей света!",
+    },
 }
 
 function Localize(string_id) {
-	var test = global._localization
-                        [$ global.selected_language.id]
-                        [$ string_id]
-	return global._localization
-                        [$ global.selected_language.id]
-                        [$ string_id]
+    var result = global._localization
+            [$ global.selected_language]
+            [$ string_id]
+    // use english as default
+    if result == undefined {
+        result = global._localization
+            [$ LANG_ENGLISH]
+            [$ string_id]
+    }
+	return result
 }
 
 function DrawTextLocalized(x, y, string_id) {
-    draw_set_font(global.selected_language.font)
+    draw_set_font(global.fntMain)
     draw_set_valign(fa_middle)
     draw_set_halign(fa_center)
 	draw_set_color(#f2dfbb)
@@ -56,7 +78,7 @@ function DrawTextLocalized(x, y, string_id) {
 
 function DrawTextLocalizedExt(x, y, string_id, _halign = fa_center, _valign = fa_middle, 
 	_xscale = 1, _yscale = 1, _col = #f2dfbb, _alpha = 1) {
-    draw_set_font(global.selected_language.font)
+    draw_set_font(global.fntMain)
     draw_set_valign(_halign)
     draw_set_halign(_valign)
     draw_text_transformed_color(x, y, Localize(string_id), _xscale, _yscale, 0, 

@@ -3,6 +3,9 @@ mouse_in_button = MouseInButton()
 if mouse_in_button{
 	image_xscale_max = 1.2
 	image_yscale_max = 1.2
+	if mouse_check_button_pressed(mb_left) {
+		global.selected_language = language
+	}
 } else {
 	image_xscale_max = 1
 	image_yscale_max = 1
