@@ -10,7 +10,22 @@ if MouseInButton() and mouse_check_button_pressed(mb_any)
 	if global.difficulty > 2
 	global.difficulty = 0
 	
-	
+	switch global.difficulty
+	{
+		case 0:
+			global.max_shape_dist = 45
+			global.light_speed_factor = 0.8
+			break
+		case 1:
+			global.max_shape_dist = 32
+			global.light_speed_factor = 1
+			break
+		case 2:
+			global.max_shape_dist = 20
+			global.light_speed_factor = 1.2
+			break
+}
+				
 	
 }
 

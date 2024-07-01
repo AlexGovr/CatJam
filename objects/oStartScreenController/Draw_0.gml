@@ -1,5 +1,5 @@
 // Countdown
-if (intro_timer > 0){
+if (intro_timer > 0) and audio_group_is_loaded(audiogroup_bgm){
 	intro_timer--
 } 
 if !intro_timer {

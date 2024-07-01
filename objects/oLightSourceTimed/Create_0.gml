@@ -7,7 +7,7 @@ p2 = new Vec2(height, angle - cone_angle * 0.5, true)
 line1 = new Line(x, y, p1.x, p1.y)
 line2 = new Line(x, y, p2.x, p2.y)
 
-rot_speed = (max_angle - min_angle) / move_time
+rot_speed = ((max_angle - min_angle) / move_time) * global.light_speed_factor
 
 wait_timer = MakeTimer(0)
 
