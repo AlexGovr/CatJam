@@ -1,16 +1,19 @@
+intro_timer --
 
-
-
-draw_sprite_ext(sStartScene, scene_current, 0, 0, 1, 1, 0, c_white, alpha)
-
-if (mouse_check_button_pressed(mb_any))
+if (intro_timer < 1)
 {
-	scene_current++
-	
-	if scene_current > 4
-	{
-		scene_current = 4
-		oTransition.transition()
-	}		
+	instance_destroy()
+	instance_create_layer(0, -16, "Instances", oIntroComic)
 }
+
+
+var _alpha = 0
+if (intro_timer < logo_fadein) 
+_alpha = (intro_timer - logo_start) / logo_fadein_time
+if (intro_timer < logo_fadeout)
+_alpha = (logo_end - intro_timer) / logo_fadeout_time
+
+draw_set_alpha(_alpha)
+draw_sprite(thq_logo, 0, room_width * 0.5, room_height * 0.7)
+draw_set_alpha(1)
 
