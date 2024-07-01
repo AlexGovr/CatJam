@@ -4,7 +4,7 @@
 #macro Dev:DEV true
 
 dev_room_start = undefined
-dev_room_start = rmHome
+dev_room_start = rmStreets
 
 tutorial_done = false
 

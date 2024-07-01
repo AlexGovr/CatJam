@@ -12,4 +12,9 @@ switch room {
             switch_music(snd_ambstreet)
         }
     break
+    case rmHome:
+        if !audio_is_playing(snd_ambhouse) {
+            switch_music(snd_ambhouse)
+        }
+    break
 }

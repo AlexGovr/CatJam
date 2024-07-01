@@ -13,3 +13,7 @@ function checkComplete() {
     }
     return false
 }
+
+if instance_exists(oCamera) {
+    instance_destroy(oCamera)
+}
