@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"oLanguageButtonParent",
+  "%Name":"oOptionsMusic",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oLanguageButtonParent",
+  "name":"oOptionsMusic",
   "overriddenProperties":[],
   "parent":{
-    "name":"02 Language Buttons",
-    "path":"folders/Objects/StartScreen/02 Language Buttons.yy",
+    "name":"03 Options Buttons",
+    "path":"folders/Objects/StartScreen/03 Options Buttons.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oOptionsParent",
+    "path":"objects/oOptionsParent/oOptionsParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sButtonSmall",
+    "path":"sprites/sButtonSmall/sButtonSmall.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

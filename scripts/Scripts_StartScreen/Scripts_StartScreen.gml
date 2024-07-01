@@ -36,11 +36,23 @@ function ButtonSetScale(_mouse_in_button){
 }
 
 function SetAllButtonsInactive() {
-	
+	var _myactive = active
+
 	with oSSButtonParent
 	active = false
-		
+
+	active = _myactive
+	
+	SetLanguageButtonsInactive()
+	SetOptionsButtonsInactive()
 }
 
+function SetLanguageButtonsInactive(){
+	instance_deactivate_object(oLanguageButtonParent)
+}
 
+function SetOptionsButtonsInactive(){
+	instance_deactivate_object(oOptionsParent)
+}
+	
 

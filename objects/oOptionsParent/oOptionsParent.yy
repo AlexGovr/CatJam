@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"oLanguageButtonEnglish",
+  "%Name":"oOptionsParent",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oLanguageButtonEnglish",
+  "name":"oOptionsParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"02 Language Buttons",
-    "path":"folders/Objects/StartScreen/02 Language Buttons.yy",
+    "name":"03 Options Buttons",
+    "path":"folders/Objects/StartScreen/03 Options Buttons.yy",
   },
-  "parentObjectId":{
-    "name":"oLanguageButtonParent",
-    "path":"objects/oLanguageButtonParent/oLanguageButtonParent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sEnglish",
-    "path":"sprites/sEnglish/sEnglish.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
