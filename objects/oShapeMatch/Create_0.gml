@@ -57,10 +57,10 @@ function finishDrawing() {
 	if !is_failed and successSaticfied() {
 		result = "Success!"
 		oCat.startHiding(current_shape)
-        audio_play_sound(snd_validate, 0, false)
+        sfx_play(snd_validate, 0, false)
 	} else {
 		result = "Fail =("
-        audio_play_sound(snd_cancel, 0, false)
+        sfx_play(snd_cancel, 0, false)
 	}
 	resetPoints()
 }

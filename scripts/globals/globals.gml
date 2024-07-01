@@ -7,3 +7,6 @@ dev_room_start = undefined
 //dev_room_start = rmStreets
 
 tutorial_done = false
+
+sfx_enabled = true
+music_enabled = true

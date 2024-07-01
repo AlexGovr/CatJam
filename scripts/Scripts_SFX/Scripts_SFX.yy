@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"Scripts_SFX",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Scripts_SFX",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
