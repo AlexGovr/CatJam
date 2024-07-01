@@ -17,3 +17,14 @@ function checkComplete() {
 if instance_exists(oCamera) {
     instance_destroy(oCamera)
 }
+
+if global.tutorial_done {
+	instance_activate_all()
+	with oTutorial {
+		activate()	
+	}
+	instance_destroy(oTutorial)
+	if !instance_exists(oCamera) {
+		instance_create_layer(0, 0, "Instances", oCamera)	
+	}
+}

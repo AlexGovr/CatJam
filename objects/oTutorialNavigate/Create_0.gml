@@ -4,6 +4,7 @@ visible = false
 
 function activate() {
     instance_create_layer(0, 0, "Instances", oCamera)
+	show_debug_message("Camera created")
     visible = true
 }
 
