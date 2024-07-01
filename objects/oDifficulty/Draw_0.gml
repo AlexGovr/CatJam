@@ -4,6 +4,7 @@ DrawTextLocalizeTransformed(x, y, diff_array[global.difficulty], , ,0.35, 0.35, 
 
 if MouseInButton() and mouse_check_button_pressed(mb_any)
 {
+	sfx_play(snd_success)
 	global.difficulty ++ 
 	
 	if global.difficulty > 2

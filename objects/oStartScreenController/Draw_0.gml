@@ -4,6 +4,7 @@ if (intro_timer > 0){
 } else {
 	instance_destroy()
 	instance_activate_object(oSSButtonParent)
+	instance_activate_object(oCredits)
 }
 
 
