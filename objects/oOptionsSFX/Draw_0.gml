@@ -9,6 +9,7 @@ draw_text_ext_transformed_color(x, y, _text, 100, 1000,
 
 if MouseInButton() and mouse_check_button_pressed(mb_any)
 {
+	sfx_play(snd_click)
 	global.sfx_enabled = !global.sfx_enabled
 }
 
