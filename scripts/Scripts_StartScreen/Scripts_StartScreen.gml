@@ -45,6 +45,7 @@ function SetAllButtonsInactive() {
 	
 	SetLanguageButtonsInactive()
 	SetOptionsButtonsInactive()
+	instance_deactivate_object(oDifficulty)
 }
 
 function SetLanguageButtonsInactive(){
