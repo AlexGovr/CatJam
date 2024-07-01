@@ -1,4 +1,5 @@
 window_center()
+audio_group_load(audiogroup_bgm)
 
 intro_timer = 200
 logo_fadein = 170
