@@ -10,8 +10,8 @@
   "name":"oIntroComic",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"00 Intro",
+    "path":"folders/Objects/StartScreen/00 Intro.yy",
   },
   "parentObjectId":null,
   "persistent":false,
