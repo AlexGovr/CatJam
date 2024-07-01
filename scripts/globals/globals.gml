@@ -12,3 +12,4 @@ tutorial_done = false
 
 sfx_enabled = true
 music_enabled = true
+difficulty = 0
