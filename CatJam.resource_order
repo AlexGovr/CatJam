@@ -12,6 +12,7 @@
     {"name":"01 Main Buttons","order":1,"path":"folders/Objects/StartScreen/01 Main Buttons.yy",},
     {"name":"02 Language Buttons","order":2,"path":"folders/Objects/StartScreen/02 Language Buttons.yy",},
     {"name":"03 Options Buttons","order":7,"path":"folders/Objects/StartScreen/03 Options Buttons.yy",},
+    {"name":"04 Difficulty Buttons","order":8,"path":"folders/Objects/StartScreen/04 Difficulty Buttons.yy",},
     {"name":"Streets","order":9,"path":"folders/Objects/Streets.yy",},
     {"name":"Tutorial","order":13,"path":"folders/Objects/Tutorial.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
