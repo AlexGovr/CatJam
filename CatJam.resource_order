@@ -50,6 +50,7 @@
     {"name":"oLanguageButtonRussian","order":3,"path":"objects/oLanguageButtonRussian/oLanguageButtonRussian.yy",},
     {"name":"oLightSource","order":6,"path":"objects/oLightSource/oLightSource.yy",},
     {"name":"oLightSourceBlinking","order":10,"path":"objects/oLightSourceBlinking/oLightSourceBlinking.yy",},
+    {"name":"oLightSourceTimed","order":15,"path":"objects/oLightSourceTimed/oLightSourceTimed.yy",},
     {"name":"oMusic","order":5,"path":"objects/oMusic/oMusic.yy",},
     {"name":"oOptionsMusic","order":1,"path":"objects/oOptionsMusic/oOptionsMusic.yy",},
     {"name":"oOptionsSFX","order":2,"path":"objects/oOptionsSFX/oOptionsSFX.yy",},
