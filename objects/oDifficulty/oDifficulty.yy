@@ -12,10 +12,7 @@
     "name":"04 Difficulty Buttons",
     "path":"folders/Objects/StartScreen/04 Difficulty Buttons.yy",
   },
-  "parentObjectId":{
-    "name":"oOptionsParent",
-    "path":"objects/oOptionsParent/oOptionsParent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -2,7 +2,7 @@ mouse_in_button = false
 active = false
 image_alpha = 0
 
-text_scale = image_xscale/2
+text_scale = image_xscale * 0.25
 
 button_xtop = bbox_left
 button_ytop = bbox_top

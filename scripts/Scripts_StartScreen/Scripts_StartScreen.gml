@@ -22,7 +22,7 @@ function ButtonSetScale(_mouse_in_button){
 		image_xscale = 1.1
 		image_yscale = 1.1
 		image_angle = 3
-		text_scale = image_xscale/2
+		text_scale = image_xscale/3
 	}
 
 	if !_mouse_in_button
@@ -30,7 +30,7 @@ function ButtonSetScale(_mouse_in_button){
 		image_xscale = 1
 		image_yscale = 1
 		image_angle = 0
-		text_scale = image_xscale/2
+		text_scale = image_xscale/3
 	}
 	
 }
@@ -45,6 +45,7 @@ function SetAllButtonsInactive() {
 	
 	SetLanguageButtonsInactive()
 	SetOptionsButtonsInactive()
+	instance_deactivate_object(oDifficulty)
 }
 
 function SetLanguageButtonsInactive(){
