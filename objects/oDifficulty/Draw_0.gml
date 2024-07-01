@@ -1,6 +1,6 @@
 event_inherited()
 
-DrawTextLocalizedExt(x, y, diff_array[global.difficulty], , ,0.35, 0.35, c_black, 0.8)
+DrawTextLocalizeTransformed(x, y, diff_array[global.difficulty], , ,0.35, 0.35, c_black, 0.8)
 
 if MouseInButton() and mouse_check_button_pressed(mb_any)
 {

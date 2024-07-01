@@ -29,10 +29,10 @@ _localization = {
 		button_difficulty: "Schwierigkeit",
 		button_options: "Einstellungen",
 		victory: "Sie haben Ihr neues \nZuhause gefunden!",
-		tut_outlining: "Umfahre ein Versteck mit der Maus",
-        tut_click_to_move: "Klick um dich \nzu bewegen",
-        tut_navigate: "Bewegen Sie die Maus \num sich umzusehen",
-		tut_lights: "Lass dich nicht \nerwischen!",
+		tut_outlining: "Umfahre ein\nVersteck mit \ner Maus",
+        tut_click_to_move: "Klick um dich\nzu bewegen",
+        tut_navigate: "Bewegen Sie\ndie Maus\num sich umzusehen",
+		tut_lights: "Lass dich nicht\nerwischen!",
 		diff_easy: "Leicht",
         diff_normal: "Normal",
         diff_hard: "Schwer",
@@ -45,8 +45,8 @@ _localization = {
 		button_options: "Options",
 		victory: "Vous avez trouvé votre \nnouvelle maison!",
 		tut_outlining: "Dessinez le contour \nd'un endroit où se cacher",
-        tut_click_to_move: "Cliquez pour vous \ndéplacer",
-        tut_navigate: "Déplacez la souris pour \nregarder autour de vous",
+        tut_click_to_move: "Cliquez pour\nvous déplacer",
+        tut_navigate: "Déplacez la souris\npour regarder\nautour de vous",
 		tut_lights: "Ne vous faites \npas repérer!",
 		diff_easy: "Facile",
         diff_normal: "Normale",
@@ -92,7 +92,7 @@ function DrawTextLocalized(x, y, string_id) {
 	draw_set_color(c_white)
 }
 
-function DrawTextLocalizedExt(x, y, string_id, _halign = fa_center, _valign = fa_middle, 
+function DrawTextLocalizeTransformed(x, y, string_id, _halign = fa_center, _valign = fa_middle, 
 	_xscale = 1, _yscale = 1, _col = #f2dfbb, _alpha = 1) {
     draw_set_font(global.fntMain)
     draw_set_valign(_halign)
@@ -101,4 +101,8 @@ function DrawTextLocalizedExt(x, y, string_id, _halign = fa_center, _valign = fa
 	_col, _col, _col, _col, _alpha)
 
 	draw_set_color(c_white)
+}
+
+function DrawTextLocalizedExt() {
+	draw_text_ext_transformed(x, y, Localize(string_id), 96, )
 }

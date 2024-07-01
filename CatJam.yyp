@@ -51,7 +51,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"CatJam",
   "resources":[
@@ -64,6 +64,7 @@
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oCat","path":"objects/oCat/oCat.yy",},},
     {"id":{"name":"oCatBlinkingEyes","path":"objects/oCatBlinkingEyes/oCatBlinkingEyes.yy",},},
+    {"id":{"name":"oDifficulty","path":"objects/oDifficulty/oDifficulty.yy",},},
     {"id":{"name":"oHDStatue","path":"objects/oHDStatue/oHDStatue.yy",},},
     {"id":{"name":"oHideSpotParent","path":"objects/oHideSpotParent/oHideSpotParent.yy",},},
     {"id":{"name":"oHSArmchair","path":"objects/oHSArmchair/oHSArmchair.yy",},},
@@ -88,7 +89,6 @@
     {"id":{"name":"oOptionsMusic","path":"objects/oOptionsMusic/oOptionsMusic.yy",},},
     {"id":{"name":"oOptionsParent","path":"objects/oOptionsParent/oOptionsParent.yy",},},
     {"id":{"name":"oOptionsSFX","path":"objects/oOptionsSFX/oOptionsSFX.yy",},},
-    {"id":{"name":"oDifficulty","path":"objects/oDifficulty/oDifficulty.yy",},},
     {"id":{"name":"oParticles","path":"objects/oParticles/oParticles.yy",},},
     {"id":{"name":"oPoof","path":"objects/oPoof/oPoof.yy",},},
     {"id":{"name":"oShapeMatch","path":"objects/oShapeMatch/oShapeMatch.yy",},},
