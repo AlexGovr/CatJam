@@ -149,7 +149,6 @@
     {"id":{"name":"sButton4","path":"sprites/sButton4/sButton4.yy",},},
     {"id":{"name":"sButtonSmall","path":"sprites/sButtonSmall/sButtonSmall.yy",},},
     {"id":{"name":"sCatSketch","path":"sprites/sCatSketch/sCatSketch.yy",},},
-    {"id":{"name":"sDanger","path":"sprites/sDanger/sDanger.yy",},},
     {"id":{"name":"sEndScreen","path":"sprites/sEndScreen/sEndScreen.yy",},},
     {"id":{"name":"sEnglish","path":"sprites/sEnglish/sEnglish.yy",},},
     {"id":{"name":"sFrench","path":"sprites/sFrench/sFrench.yy",},},
