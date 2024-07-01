@@ -12,8 +12,8 @@
   "duration":84.210526,
   "name":"snd_ambshelter",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"02 SFX",
+    "path":"folders/Sounds/02 SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

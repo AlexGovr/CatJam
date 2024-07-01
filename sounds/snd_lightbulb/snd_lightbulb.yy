@@ -12,8 +12,8 @@
   "duration":0.715964,
   "name":"snd_lightbulb",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"02 SFX",
+    "path":"folders/Sounds/02 SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

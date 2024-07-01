@@ -10,6 +10,7 @@ draw_text_ext_transformed_color(x, y, _text, 100, 1000,
 if MouseInButton() and mouse_check_button_pressed(mb_any)
 {
 	global.music_enabled = !global.music_enabled
+	oMusic.MusicEnableDisable()
 }
 
 

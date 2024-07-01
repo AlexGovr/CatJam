@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"music_mainscreen",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"audiogroup_bgm",
+    "path":"audiogroups/audiogroup_bgm",
   },
   "bitDepth":1,
   "bitRate":128,
@@ -12,8 +12,8 @@
   "duration":38.57143,
   "name":"music_mainscreen",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"01 Music",
+    "path":"folders/Sounds/01 Music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
