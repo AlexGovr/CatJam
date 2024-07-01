@@ -6,6 +6,8 @@
 
 fntMain = font_add("Ubuntu-R.ttf", 96, false, false, 32, 128)
 fntSmall = font_add("Ubuntu-R.ttf", 28, false, false, 32, 128)
+fntTiny = font_add("Ubuntu-R.ttf", 22, false, false, 32, 128)
+fntMenu = font_add("Ubuntu-R.ttf", 36, false, false, 32, 128)
 selected_language = LANG_ENGLISH
 
 _localization = {
@@ -84,11 +86,11 @@ function Localize(string_id) {
 	return result
 }
 
-function DrawTextLocalized(x, y, string_id) {
-    draw_set_font(global.fntMain)
+function DrawTextLocalized(x, y, string_id, fnt=global.fntMain, col=#f2dfbb) {
+    draw_set_font(fnt)
     draw_set_valign(fa_middle)
     draw_set_halign(fa_center)
-	draw_set_color(#f2dfbb)
+	draw_set_color(col)
     draw_text(x, y, Localize(string_id))
 	draw_set_color(c_white)
 }
