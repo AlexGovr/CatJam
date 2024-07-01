@@ -39,6 +39,7 @@
     {"name":"oHSScratchpost","order":4,"path":"objects/oHSScratchpost/oHSScratchpost.yy",},
     {"name":"oHSTree","order":2,"path":"objects/oHSTree/oHSTree.yy",},
     {"name":"oHSUmbrella","order":1,"path":"objects/oHSUmbrella/oHSUmbrella.yy",},
+    {"name":"oIntroScreen","order":15,"path":"objects/oIntroScreen/oIntroScreen.yy",},
     {"name":"oLanguageButtonEnglish","order":4,"path":"objects/oLanguageButtonEnglish/oLanguageButtonEnglish.yy",},
     {"name":"oLanguageButtonFrench","order":1,"path":"objects/oLanguageButtonFrench/oLanguageButtonFrench.yy",},
     {"name":"oLanguageButtonGerman","order":2,"path":"objects/oLanguageButtonGerman/oLanguageButtonGerman.yy",},
@@ -64,6 +65,7 @@
     {"name":"rmShelter","order":1,"path":"rooms/rmShelter/rmShelter.yy",},
     {"name":"rmStreets","order":4,"path":"rooms/rmStreets/rmStreets.yy",},
     {"name":"rmWinScreen","order":3,"path":"rooms/rmWinScreen/rmWinScreen.yy",},
+    {"name":"rmIntroScreen","order":6,"path":"rooms/rmIntroScreen/rmIntroScreen.yy",},
     {"name":"camera","order":1,"path":"scripts/camera/camera.yy",},
     {"name":"debug","order":2,"path":"scripts/debug/debug.yy",},
     {"name":"geometry","order":3,"path":"scripts/geometry/geometry.yy",},
@@ -132,5 +134,6 @@
     {"name":"sStartScene","order":1,"path":"sprites/sStartScene/sStartScene.yy",},
     {"name":"sStartSceneComic","order":2,"path":"sprites/sStartSceneComic/sStartSceneComic.yy",},
     {"name":"sStreetsGroundTile","order":1,"path":"sprites/sStreetsGroundTile/sStreetsGroundTile.yy",},
+    {"name":"sTHQLogo","order":29,"path":"sprites/sTHQLogo/sTHQLogo.yy",},
   ],
 }

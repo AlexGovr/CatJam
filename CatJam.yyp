@@ -45,7 +45,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"CatJam",
   "resources":[
@@ -68,6 +68,7 @@
     {"id":{"name":"oHSScratchpost","path":"objects/oHSScratchpost/oHSScratchpost.yy",},},
     {"id":{"name":"oHSTree","path":"objects/oHSTree/oHSTree.yy",},},
     {"id":{"name":"oHSUmbrella","path":"objects/oHSUmbrella/oHSUmbrella.yy",},},
+    {"id":{"name":"oIntroScreen","path":"objects/oIntroScreen/oIntroScreen.yy",},},
     {"id":{"name":"oLanguageButtonEnglish","path":"objects/oLanguageButtonEnglish/oLanguageButtonEnglish.yy",},},
     {"id":{"name":"oLanguageButtonFrench","path":"objects/oLanguageButtonFrench/oLanguageButtonFrench.yy",},},
     {"id":{"name":"oLanguageButtonGerman","path":"objects/oLanguageButtonGerman/oLanguageButtonGerman.yy",},},
@@ -98,6 +99,7 @@
     {"id":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
     {"id":{"name":"rmStreets","path":"rooms/rmStreets/rmStreets.yy",},},
     {"id":{"name":"rmWinScreen","path":"rooms/rmWinScreen/rmWinScreen.yy",},},
+    {"id":{"name":"rmIntroScreen","path":"rooms/rmIntroScreen/rmIntroScreen.yy",},},
     {"id":{"name":"camera","path":"scripts/camera/camera.yy",},},
     {"id":{"name":"debug","path":"scripts/debug/debug.yy",},},
     {"id":{"name":"geometry","path":"scripts/geometry/geometry.yy",},},
@@ -173,11 +175,13 @@
     {"id":{"name":"sStartScene","path":"sprites/sStartScene/sStartScene.yy",},},
     {"id":{"name":"sStartSceneComic","path":"sprites/sStartSceneComic/sStartSceneComic.yy",},},
     {"id":{"name":"sStreetsGroundTile","path":"sprites/sStreetsGroundTile/sStreetsGroundTile.yy",},},
+    {"id":{"name":"sTHQLogo","path":"sprites/sTHQLogo/sTHQLogo.yy",},},
     {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rmIntroScreen","path":"rooms/rmIntroScreen/rmIntroScreen.yy",},},
     {"roomId":{"name":"rmStartScreen","path":"rooms/rmStartScreen/rmStartScreen.yy",},},
     {"roomId":{"name":"rmShelter","path":"rooms/rmShelter/rmShelter.yy",},},
     {"roomId":{"name":"rmStreets","path":"rooms/rmStreets/rmStreets.yy",},},
