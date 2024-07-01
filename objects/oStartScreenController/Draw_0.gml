@@ -1,5 +1,7 @@
 // Countdown
 if (intro_timer > 0){
+	
+	if audio_group_is_loaded(audiogroup_bgm)	
 	intro_timer --
 } else {
 	instance_destroy()
