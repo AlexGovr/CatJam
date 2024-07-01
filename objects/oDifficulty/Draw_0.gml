@@ -10,6 +10,8 @@ if MouseInButton() and mouse_check_button_pressed(mb_any)
 	if global.difficulty > 2
 	global.difficulty = 0
 	
+	
+	
 }
 
 mouse_in_button = MouseInButton()
