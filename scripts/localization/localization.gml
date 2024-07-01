@@ -18,6 +18,10 @@ _localization = {
         tut_click_to_move: "Click\nto move",
         tut_navigate: "Move mouse\nto look around",
 		tut_lights: "Don't get spotted!",
+        diff_easy: "Easy",
+        diff_normal: "Nomal",
+        diff_hard: "Hard",
+        end_screen: "A house is not a home without a pet; when opening your door and heart to a non-human family member, please remember that black pets do not have any disadvantages over their lighter compatriots. They are as cuddly, as friendly, as good company as any other coat colour. Your luck is your own, not your cat's. If you want to do your pet, and the shelter, a real solid, adopt an elder cat with fully formed manners and character, rather than a hyper kitten. Cats have long lives and will be perfectly adorable right to the very end."
     },
     Deutch: {
         button_start: undefined,
@@ -29,6 +33,10 @@ _localization = {
         tut_click_to_move: undefined,
         tut_navigate: undefined,
 		tut_lights: undefined,
+        diff_easy: undefined,
+        diff_normal: undefined,
+        diff_hard:  undefined,
+        end_screen: undefined,
     },
     French: {
         button_start: undefined,
@@ -40,6 +48,10 @@ _localization = {
         tut_click_to_move: undefined,
         tut_navigate: undefined,
 		tut_lights: undefined,
+        diff_easy: undefined,
+        diff_normal: undefined,
+        diff_hard:  undefined,
+        end_screen: undefined,
     },
     Russian: {
         button_start: "Начать",
@@ -51,6 +63,10 @@ _localization = {
         tut_click_to_move: "Кликни,\nчтобы\nпереместиться",
         tut_navigate: "Камеру можно\nдвигать мышью",
 		tut_lights: "Берегись лучей света!",
+        diff_easy: "Легкий",
+        diff_normal: "Нормальный",
+        diff_hard:  "Сложный",
+        end_screen: undefined,
     },
 }
 
