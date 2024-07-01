@@ -5,6 +5,7 @@
 #macro LANG_RUSSIAN "Russian"
 
 fntMain = font_add("Ubuntu-R.ttf", 96, false, false, 32, 128)
+fntSmall = font_add("Ubuntu-R.ttf", 28, false, false, 32, 128)
 selected_language = LANG_ENGLISH
 
 _localization = {
@@ -103,6 +104,10 @@ function DrawTextLocalizeTransformed(x, y, string_id, _halign = fa_center, _vali
 	draw_set_color(c_white)
 }
 
-function DrawTextLocalizedExt() {
-	draw_text_ext_transformed(x, y, Localize(string_id), 96, )
+function DrawEndingTextLocalized(x, y) {
+    draw_set_font(global.fntSmall)
+	draw_set_color(#f2dfbb)
+    draw_set_valign(fa_top)
+    draw_set_halign(fa_left)
+	draw_text_ext(x, y, Localize("end_screen"), 48, 780)
 }

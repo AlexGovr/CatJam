@@ -106,6 +106,7 @@
     {"id":{"name":"oTutorialMove","path":"objects/oTutorialMove/oTutorialMove.yy",},},
     {"id":{"name":"oTutorialNavigate","path":"objects/oTutorialNavigate/oTutorialNavigate.yy",},},
     {"id":{"name":"oWinScreen","path":"objects/oWinScreen/oWinScreen.yy",},},
+    {"id":{"name":"rmEndScreen","path":"rooms/rmEndScreen/rmEndScreen.yy",},},
     {"id":{"name":"rmHome","path":"rooms/rmHome/rmHome.yy",},},
     {"id":{"name":"rmIntroScreen","path":"rooms/rmIntroScreen/rmIntroScreen.yy",},},
     {"id":{"name":"rmShelter","path":"rooms/rmShelter/rmShelter.yy",},},
@@ -200,6 +201,7 @@
     {"roomId":{"name":"rmStreets","path":"rooms/rmStreets/rmStreets.yy",},},
     {"roomId":{"name":"rmHome","path":"rooms/rmHome/rmHome.yy",},},
     {"roomId":{"name":"rmWinScreen","path":"rooms/rmWinScreen/rmWinScreen.yy",},},
+    {"roomId":{"name":"rmEndScreen","path":"rooms/rmEndScreen/rmEndScreen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

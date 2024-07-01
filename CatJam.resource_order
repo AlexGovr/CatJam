@@ -70,6 +70,7 @@
     {"name":"oTutorialMove","order":1,"path":"objects/oTutorialMove/oTutorialMove.yy",},
     {"name":"oTutorialNavigate","order":2,"path":"objects/oTutorialNavigate/oTutorialNavigate.yy",},
     {"name":"oWinScreen","order":2,"path":"objects/oWinScreen/oWinScreen.yy",},
+    {"name":"rmEndScreen","order":7,"path":"rooms/rmEndScreen/rmEndScreen.yy",},
     {"name":"rmHome","order":5,"path":"rooms/rmHome/rmHome.yy",},
     {"name":"rmIntroScreen","order":6,"path":"rooms/rmIntroScreen/rmIntroScreen.yy",},
     {"name":"rmShelter","order":1,"path":"rooms/rmShelter/rmShelter.yy",},
