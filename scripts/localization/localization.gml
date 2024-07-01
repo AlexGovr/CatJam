@@ -4,10 +4,10 @@
 #macro LANG_FRENCH "French"
 #macro LANG_RUSSIAN "Russian"
 
-fntMain = font_add("Ubuntu-R.ttf", 96, false, false, 32, 128)
-fntSmall = font_add("Ubuntu-R.ttf", 28, false, false, 32, 128)
-fntTiny = font_add("Ubuntu-R.ttf", 22, false, false, 32, 128)
-fntMenu = font_add("Ubuntu-R.ttf", 36, false, false, 32, 128)
+fntMain = fontMain// font_add("Ubuntu-R.ttf", 96, false, false, 32, 128)
+fntSmall = fontSmall// font_add("Ubuntu-R.ttf", 28, false, false, 32, 128)
+fntTiny = fontTiny// font_add("Ubuntu-R.ttf", 22, false, false, 32, 128)
+fntMenu = fontMenu// font_add("Ubuntu-R.ttf", 36, false, false, 32, 128)
 selected_language = LANG_ENGLISH
 
 _localization = {

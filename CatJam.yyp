@@ -55,8 +55,11 @@
   },
   "name":"CatJam",
   "resources":[
-    {"id":{"name":"fntDefault","path":"fonts/fntDefault/fntDefault.yy",},},
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
+    {"id":{"name":"fontMain","path":"fonts/fontMain/fontMain.yy",},},
+    {"id":{"name":"fontMenu","path":"fonts/fontMenu/fontMenu.yy",},},
+    {"id":{"name":"fontSmall","path":"fonts/fontSmall/fontSmall.yy",},},
+    {"id":{"name":"fontTiny","path":"fonts/fontTiny/fontTiny.yy",},},
     {"id":{"name":"libOInput","path":"objects/libOInput/libOInput.yy",},},
     {"id":{"name":"oAmbienSounds","path":"objects/oAmbienSounds/oAmbienSounds.yy",},},
     {"id":{"name":"oBGShelter1","path":"objects/oBGShelter1/oBGShelter1.yy",},},

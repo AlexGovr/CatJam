@@ -4,6 +4,9 @@ if next_music == noone
     exit
 
 var msc_gain = get_gain(next_music)
+if msc_gain == undefined {
+	msc_gain = 1
+}
 show_debug_message(string("Gain: {0}", msc_gain))
 current_music_instance = audio_play_sound(next_music, 0, next_music_loops)
 audio_sound_gain(next_music, 0, 0)

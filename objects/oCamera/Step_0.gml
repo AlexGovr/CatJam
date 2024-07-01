@@ -10,8 +10,8 @@ x = clamp(x, camw() * 0.5, room_width - camw() * 0.5)
 
 camera_set_pos(x, room_height * 0.5)
 
-if mouse_x >= camx() + camw() {
+if mouse_x >= camx() + camw() - 200 {
 	xto += sp_max
-} else if mouse_x <= camx() {
+} else if mouse_x <= camx() + 200 {
 	xto -= sp_max
 }

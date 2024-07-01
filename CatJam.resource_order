@@ -30,6 +30,9 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Font2","order":1,"path":"fonts/Font2/Font2.yy",},
+    {"name":"fontMenu","order":4,"path":"fonts/fontMenu/fontMenu.yy",},
+    {"name":"fontSmall","order":2,"path":"fonts/fontSmall/fontSmall.yy",},
+    {"name":"fontTiny","order":3,"path":"fonts/fontTiny/fontTiny.yy",},
     {"name":"oAmbienSounds","order":4,"path":"objects/oAmbienSounds/oAmbienSounds.yy",},
     {"name":"oBGShelter1","order":1,"path":"objects/oBGShelter1/oBGShelter1.yy",},
     {"name":"oCamera","order":7,"path":"objects/oCamera/oCamera.yy",},
