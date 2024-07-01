@@ -22,6 +22,7 @@
     {"name":"inst_73E1A6BB","path":"rooms/rmStartScreen/rmStartScreen.yy",},
     {"name":"inst_21C582E","path":"rooms/rmStartScreen/rmStartScreen.yy",},
     {"name":"inst_11A7E49F","path":"rooms/rmStartScreen/rmStartScreen.yy",},
+    {"name":"inst_4A8F8776","path":"rooms/rmStartScreen/rmStartScreen.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -42,6 +43,7 @@
         {"$GMRInstance":"","%Name":"inst_73E1A6BB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_73E1A6BB","objectId":{"name":"oOptionsMusic","path":"objects/oOptionsMusic/oOptionsMusic.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":960.0,},
         {"$GMRInstance":"","%Name":"inst_21C582E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_21C582E","objectId":{"name":"oOptionsSFX","path":"objects/oOptionsSFX/oOptionsSFX.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":848.0,"y":960.0,},
         {"$GMRInstance":"","%Name":"inst_11A7E49F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_11A7E49F","objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":-32.0,},
+        {"$GMRInstance":"","%Name":"inst_4A8F8776","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4A8F8776","objectId":{"name":"oDifficulty","path":"objects/oDifficulty/oDifficulty.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":816.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_11B4F53","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_11B4F53","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.75758266,"scaleY":0.7575827,"spriteId":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},"x":416.0,"y":448.0,},
