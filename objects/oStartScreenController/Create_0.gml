@@ -7,6 +7,8 @@ logo_start = 140
 final_zoom = 60
 scale = 1
 
+pressed_a_button = false
+
 logo_fadein_time = logo_fadein - logo_start
 
 
