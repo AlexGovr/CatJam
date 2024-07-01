@@ -4,7 +4,8 @@ draw_sprite_ext(sStartScene, scene_current, 0, 0, 1, 1, 0, c_white, alpha)
 //Activate fade on mouse click
 if (mouse_check_button_pressed(mb_any))
 {
-	fade_out = true	
+	fade_out = true
+	fade_in = false
 }
 
 
