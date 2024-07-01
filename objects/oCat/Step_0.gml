@@ -37,5 +37,7 @@ if DEV and mouse_check_button_pressed(mb_right) {
 var victory_dist = room == rmHome ? 700 : 300
 if (room_width - x) < victory_dist {
     oTransition.transition()
-    sfx_play(snd_success, 0, false)
+    if !audio_is_playing(snd_success) {
+        sfx_play(snd_success, 0, false)
+    }
 }

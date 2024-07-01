@@ -5,8 +5,8 @@
 
 dev_room_start = undefined
 //dev_room_start = rmStreets
-//dev_room_start = rmHome
-dev_room_start = rmWinScreen
+dev_room_start = rmShelter
+// dev_room_start = rmWinScreen
 
 
 tutorial_done = false
