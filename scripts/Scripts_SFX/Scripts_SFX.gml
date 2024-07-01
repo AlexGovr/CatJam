@@ -3,9 +3,9 @@
 function sfx_play(_sfx, _priority = 1, _loop = false, _gain = 1){
 	
 	if (global.sfx_enabled == false)
-	_gain = 0
+	    _gain = 0
 	
-	audio_play_sound(_sfx, 0, _loops, _gain)
+	audio_play_sound(_sfx, 0, _loop, _gain)
 
 }
 	

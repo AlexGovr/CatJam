@@ -36,6 +36,7 @@ function click() {
 function resetPoints() {
     with oShapePoint {
         is_captured = false
+        is_failed_one = false
     }
 }
 

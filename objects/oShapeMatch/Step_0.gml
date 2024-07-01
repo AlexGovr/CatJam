@@ -24,6 +24,7 @@ if !is_drawing {
 		if current_shape_dist > max_shape_dist 
                 or point.hiding_spot != current_shape {
 			is_failed = true
+            point.is_failed_one = true
             status = MatchStatus.fail
 		} else {
             point.capture()
