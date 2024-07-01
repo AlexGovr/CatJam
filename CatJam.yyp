@@ -82,6 +82,7 @@
     {"id":{"name":"oLanguageButtonRussian","path":"objects/oLanguageButtonRussian/oLanguageButtonRussian.yy",},},
     {"id":{"name":"oLightSource","path":"objects/oLightSource/oLightSource.yy",},},
     {"id":{"name":"oLightSourceBlinking","path":"objects/oLightSourceBlinking/oLightSourceBlinking.yy",},},
+    {"id":{"name":"oLightSourceTimed","path":"objects/oLightSourceTimed/oLightSourceTimed.yy",},},
     {"id":{"name":"oMusic","path":"objects/oMusic/oMusic.yy",},},
     {"id":{"name":"oOptionsMusic","path":"objects/oOptionsMusic/oOptionsMusic.yy",},},
     {"id":{"name":"oOptionsParent","path":"objects/oOptionsParent/oOptionsParent.yy",},},
