@@ -1,4 +1,8 @@
 switch room {
+	case rmIntroScreen:
+        if !audio_is_playing(music_opening) {
+            switch_music(music_opening)
+        }
     case rmStartScreen:
         alarm[1] = 30
     break
@@ -15,6 +19,11 @@ switch room {
     case rmHome:
         if !audio_is_playing(music_house) {
             switch_music(music_house)
+        }
+    break
+    case rmEndScreen:
+        if !audio_is_playing(music_ending) {
+            switch_music(music_ending)
         }
     break
 }

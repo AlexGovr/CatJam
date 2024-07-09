@@ -10,7 +10,7 @@ if mouse_in_button
 		
 		if (active == true)
 		{
-			instance_activate_object(oDifficulty)
+			//instance_activate_object(oDifficulty)
 			with oDifficulty
 			{
 				image_xscale = 0
@@ -18,8 +18,8 @@ if mouse_in_button
 			}
 		}
 		
-		if (active == false)
-		instance_deactivate_object(oDifficulty)	
+		//if (active == false)
+		//instance_deactivate_object(oDifficulty)	
 	}
 		
 }

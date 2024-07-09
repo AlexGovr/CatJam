@@ -29,8 +29,12 @@ if !is_drawing {
 		} else {
             point.capture()
         }
-        if successSaticfied() {
-            status = MatchStatus.success
+        if status == MatchStatus.drawing {
+            if successSaticfied()
+                status = MatchStatus.success
+        } else if status == MatchStatus.success {
+            if !successSaticfied()
+                status = MatchStatus.fail
         }
 	}
 

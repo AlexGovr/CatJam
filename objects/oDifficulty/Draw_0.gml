@@ -1,6 +1,10 @@
 draw_self()
 
-DrawTextLocalizeTransformed(x, y, diff_array[global.difficulty], , ,0.35, 0.35, c_black, 0.8)
+var active = instance_exists(oSSButtonDifficulty) ? oSSButtonDifficulty.active : 0
+
+if active {
+	DrawTextLocalizeTransformed(x, y, diff_array[global.difficulty], , ,0.35, 0.35, c_black, 0.8)
+}
 
 if MouseInButton() and mouse_check_button_pressed(mb_any)
 {
@@ -39,14 +43,5 @@ if mouse_in_button{
 	image_yscale_max = 1
 }
 
-if image_xscale < image_xscale_max 
-image_xscale = min(image_xscale + 0.2, image_xscale_max)
-
-if image_yscale < image_yscale_max 
-image_yscale = min(image_yscale + 0.2, image_yscale_max)
-
-if image_xscale > image_xscale_max 
-image_xscale = image_xscale_max
-
-if image_yscale > image_yscale_max 
-image_yscale = image_yscale_max
+image_xscale = Approach(image_xscale, image_xscale_max * active, 0.2)
+image_yscale = image_xscale

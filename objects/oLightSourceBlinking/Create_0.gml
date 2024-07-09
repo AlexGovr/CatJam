@@ -13,7 +13,8 @@ line1.mult(ua1)
 line2.mult(ua2)
 
 
-
+prev_light_on = true
+light_on = true
 on_timer = MakeTimer(on_time)
 off_timer = MakeTimer(off_time, 0)
 blink_timer = MakeTimer(10, 0)
