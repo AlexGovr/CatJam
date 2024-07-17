@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"Scripts_StartScreen",
   "isCompatibility":false,
   "isDnD":false,

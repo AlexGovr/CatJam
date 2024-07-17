@@ -4,10 +4,14 @@
 #macro LANG_FRENCH "French"
 #macro LANG_RUSSIAN "Russian"
 
-fntMain = fontMain// font_add("Ubuntu-R.ttf", 96, false, false, 32, 128)
-fntSmall = fontSmall// font_add("Ubuntu-R.ttf", 28, false, false, 32, 128)
-fntTiny = fontTiny// font_add("Ubuntu-R.ttf", 22, false, false, 32, 128)
-fntMenu = fontMenu// font_add("Ubuntu-R.ttf", 36, false, false, 32, 128)
+fntMain = fontMain
+fntSmall = fontSmall
+fntTiny = fontTiny
+fntMenu = fontMenu
+fntMain = font_add("Ubuntu-R.ttf", 96, false, false, 32, 128)
+fntSmall = font_add("Ubuntu-R.ttf", 28, false, false, 32, 128)
+fntTiny = font_add("Ubuntu-R.ttf", 22, false, false, 32, 128)
+fntMenu = font_add("Ubuntu-R.ttf", 36, false, false, 32, 128)
 selected_language = LANG_ENGLISH
 
 _localization = {
@@ -69,7 +73,7 @@ _localization = {
         diff_easy: "Легкий",
         diff_normal: "Нормальный",
         diff_hard:  "Сложный",
-        end_screen: "Дом не дом без питомца. Открывая свою дверь и сердце новому члену семьи, пожалуйста, помните, что черные питомцы не имеют никаких недостатков перед своими более светлыми сородичами. Они такие же приятные и дружелюбные. И уж точно ваша удача не зависит от цвета шерсти вашей кошки. Помните, что вы окажете наибольшую помощь, если приютите взрослого сформировавшегося питомца. Кошки живут долго и будут радовать вас до самого конца!",
+        end_screen: "Дом не дом без питомца. Открывая свою дверь и сердце новому члену семьи, пожалуйста, помните, что черные питомцы ничем не хуже своич светлых сородичей. Они такие же приятные и дружелюбные. И уж точно ваша удача не зависит от цвета шерсти вашей кошки. Помните, что вы окажете наибольшую помощь, если приютите взрослого сформировавшегося питомца. Кошки живут долго и будут долго радовать вас!",
     },
 }
 
